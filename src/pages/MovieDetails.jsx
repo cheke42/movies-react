@@ -11,7 +11,6 @@ export function MovieDetails(){
     const {movieId} = useParams()
     const [isLoading, setIsLoading] = useState(true)
     const [movie, setMovie] = useState(null)
-    const [videos, setVideos] = useState(null)
 
     useEffect(()=>{
         setIsLoading(true)
